@@ -36,7 +36,7 @@ function subMit(){
         "%. Your performance in this test is less than average, Strive harder for better results.";
     }
 
-    else if (percentage >= 0 && percentage <= 39) {
+    else if (percentage == 0 && percentage <= 39) {
         displayBox.innerHTML = "Dear " + studentName + ", your total score obtained is " + allTotal + 
         " / 400, while your percentage obtained is " + percentage + 
         "%. Your performance is poor, Strive harder for better grades.";

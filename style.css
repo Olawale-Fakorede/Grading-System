@@ -60,7 +60,7 @@ body {
 }
 @media (max-width:768px) {
     .container {
-        height: 150vh;
+        height: 170vh;
         width: 90vw;
         border: 2px solid white;
         background: url(background3.jpeg);

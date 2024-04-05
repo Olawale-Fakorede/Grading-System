@@ -138,8 +138,8 @@ img{
 }
 @media (max-width:768px) {
     img{
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
         margin-top: 15px;
         margin-left: 20px;
         display: inline;
@@ -174,7 +174,7 @@ img{
     .report {
         font-family: Georgia;
         color: rgb(63, 61, 61);
-        font-size: 30px;
+        font-size: 28px;
         font-weight: 700;
         display: inline;
         margin-bottom: 20px;
@@ -241,7 +241,7 @@ p {
         border: none;
         display: flex;
         flex-wrap: wrap;
-        padding: 2px;
+        /* padding: 2px; */
         margin-top: 30px;
         margin-bottom: 40px;
     }
@@ -265,9 +265,11 @@ h3 {
 @media (max-width:768px) {
     h3 {
         font-family: helvetica;
-        font-size: 20px;
+        font-size: 28px;
         font-weight: 700;
         color: black;
+        margin-top: -20px;
+        margin-left: 20px;
     }
 }
 
@@ -301,14 +303,14 @@ h3 {
 }
 @media (max-width:768px) {
     #nam {
-        width: 175px;
-        height: 35px;
-        margin-top: 10px;
-        margin-left: 10px;
-        padding: 5px;
+        width: 280px;
+        height: 32px;
+        margin-top: -12px;
+        margin-left: 25px;
+        padding: 3px;
         border: none;
         border-top: 3px groove;
-        border-radius: 20px;
+        border-radius: 15px;
         border-color: rgba(85, 107, 63, 0.836);
         color: black;
         margin-bottom: 20px;

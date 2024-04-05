@@ -23,8 +23,8 @@ body {
     body {
         background: url(background3.jpeg);
         background-size: contain;
-        height: 100vh;
-        width: 100vw;
+        /* height: 100vh;
+        width: 100vw; */
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -53,21 +53,21 @@ body {
         background-size: cover;
         box-sizing: border-box;
         margin-left: 100px;
-        position: fixed;
+        position: absolute;
         box-sizing: border-box;
         box-shadow: 2px 4px 2px 4px rgba(128, 128, 128, 0.705);
     }
 }
 @media (max-width:768px) {
     .container {
-        height: 200vh;
+        height: 150vh;
         width: 90vw;
         border: 2px solid white;
         background: url(background3.jpeg);
         background-size: cover;
         box-sizing: border-box;
-        margin-left: 40px;
-        position: fixed;
+        margin-left: 20px;
+        position: absolute;
         box-sizing: border-box;
         box-shadow: 2px 4px 2px 4px rgba(128, 128, 128, 0.705);
     }
@@ -104,7 +104,7 @@ body {
 }
 @media (max-width:768px) {
     .headcon {
-        height: 140px;
+        height: 100px;
         width: 90vw;
         border: 4px groove rgb(80, 78, 80);
         border-top: none;
@@ -113,7 +113,7 @@ body {
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         box-sizing: border-box;
-        top: 8%;
+        top: 4%;
         left: 0;
         justify-content: center;
     }
@@ -138,9 +138,9 @@ img{
 }
 @media (max-width:768px) {
     img{
-        height: 80px;
-        width: 80px;
-        margin-top: 30px;
+        height: 60px;
+        width: 60px;
+        margin-top: 15px;
         margin-left: 20px;
         display: inline;
     }
@@ -174,12 +174,12 @@ img{
     .report {
         font-family: Georgia;
         color: rgb(63, 61, 61);
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 700;
         display: inline;
         margin-bottom: 20px;
         text-align: center;
-        margin-left: 40px;
+        margin-left: 25px;
     }
 }
 
@@ -265,7 +265,7 @@ h3 {
 @media (max-width:768px) {
     h3 {
         font-family: helvetica;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 700;
         color: black;
     }
@@ -301,9 +301,9 @@ h3 {
 }
 @media (max-width:768px) {
     #nam {
-        width: 370px;
-        height: 45px;
-        margin-top: 15px;
+        width: 175px;
+        height: 35px;
+        margin-top: 10px;
         margin-left: 10px;
         padding: 5px;
         border: none;
@@ -312,6 +312,7 @@ h3 {
         border-color: rgba(85, 107, 63, 0.836);
         color: black;
         margin-bottom: 20px;
+        background-color: rgba(70, 67, 67, 0.397);
     }
 }
 
@@ -362,10 +363,11 @@ input:focus {
 }
 @media (max-width:768px) {
     .line {
-        height: 18px;
-        width: 90vw;
-        margin-top: 15px;
-        margin-bottom: 35px;
+        height: 0;
+        width: 89vw;
+        border: 2px groove rgba(255, 255, 255, 0.507);
+        margin-top: -22px;
+        margin-bottom: 15px;
     }
 }
 
@@ -389,12 +391,12 @@ input:focus {
 }
 @media (max-width:768px) {
     .subjects {
-        height: 390px;
+        /* height: 390px; */
         width: 90vw;
         border: none solid lightblue;
         box-sizing: border-box;
         margin-bottom: 10px;
-        margin-top: 10px;
+        margin-top: -5px;
     }
 }
 
@@ -425,14 +427,14 @@ input:focus {
 @media (max-width:768px) {
     .subs {
         font-family: Cochin;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 700;
         color: rgb(92, 19, 19);
         margin-right: 40px;
-        margin-left: 12px;
-        margin-top: 20px;
+        margin-left: 20px;
+        margin-top: 220px;
         padding: 20px;
-        margin-bottom: 10px;
+        margin-bottom: -10px;
     }
 }
 
@@ -457,13 +459,14 @@ input:focus {
 }
 @media (max-width:768px) {
     #space1 {
-        width: 120px;
+        width: 80px;
         border: none;
         border-radius: 10px;
         border-bottom: 2px solid fuchsia;
         padding: 15px;
         text-align: center;
         margin-top: 30px;
+        margin-left: 130px;
     }
 }
 
@@ -490,12 +493,12 @@ input:focus {
 }
 @media (max-width:768px) {
     #space2 {
-        width: 120px;
+        width: 80px;
         border: none;
         border-radius: 10px;
         border-bottom: 2px solid rgb(173, 92, 173);
         padding: 15px;
-        margin-left: 127px;
+        margin-left: 130px;
         text-align: center;
         margin-top: 30px;
     }
@@ -524,12 +527,12 @@ input:focus {
 }
 @media (max-width:768px) {
     #space3 {
-        width: 120px;
+        width: 80px;
         border: none;
         border-radius: 10px;
         border-bottom: 2px solid rgb(46, 8, 46);
         padding: 15px;
-        margin-left: 134px;
+        margin-left: 135px;
         text-align: center;
         margin-top: 30px;
     }
@@ -559,12 +562,12 @@ input:focus {
 }
 @media (max-width:768px) {
     #space4 {
-        width: 120px;
+        width: 80px;
         border: none;
         border-radius: 10px;
         border-bottom: 2px solid rgb(46, 8, 46);
         padding: 15px;
-        margin-left: 64px;
+        margin-left: 130px;
         text-align: center;
         margin-top: 30px;
     }
@@ -603,17 +606,18 @@ button {
 @media (max-width:768px) {
     button {
         border: groove pink;
-        height: 70px;
-        width: 180px;
+        height: 50px;
+        width: 140px;
         color: black;
         font-family: serif;
         font-size: 25px;
         font-weight: 800;
         border: none;
         border-radius: 20px;
-        margin-left: 180px;
+        margin-left: 100px;
         padding: 16px;
         margin-top: 30px;
+        background-color: rgba(0, 0, 0, 0.37);
     }
 }
 
@@ -653,16 +657,17 @@ button:hover {
 }
 @media (max-width:768px) {
     #comments {
-        height: 250px;
+        height: 200px;
         width: 89vw;
         font-family: Verdana;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 900;
-        border: none groove white;
+        border: 2px groove white;
         color: black;
         padding-top: 20px;
-        padding-left: 10px;
-        margin-top: 150px;
+        padding-left: 5px;
+        margin-top: 320px;
+        margin-left: -2px;
         box-shadow: -4px 4px 4px 4px rgba(0, 0, 0, 0.377);
     }
 }
